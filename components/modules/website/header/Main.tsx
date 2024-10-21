@@ -5,7 +5,7 @@ import Row from "../../custom/Row";
 import SearchInput from "../../custom/SearchInput";
 import IconsGroup from "../../custom/IconsGroup";
 import SidebarMenu from "../../custom/SidebarMenu";
-import Logo from "../../custom/Logo";
+// import Logo from "../../custom/Logo";
 import { cn } from "@/lib/utils";
 import SearchMobile from "../../custom/SearchMobile";
 import LanguageCurrencyModal from "../../custom/LanguageCurrencyModal";
@@ -23,8 +23,9 @@ export default function Main() {
             )}
           >
             <SidebarMenu />
-            <div className="flex">
-              <Logo />
+            <div className="flex justify-center items-center">
+              {/* <Logo /> */}
+              <p className="text-primary-500 font-semibold">BALOZI STORE</p>
             </div>
           </div>
           <div className="flex items-center gap-2 w-full justify-end lg:hidden">

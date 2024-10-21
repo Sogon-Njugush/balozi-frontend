@@ -24,7 +24,7 @@ export default function Currency({
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>
-          <SelectItem value="en">USD</SelectItem>
+          <SelectItem value="en">KES</SelectItem>
         </SelectGroup>
       </SelectContent>
     </Select>

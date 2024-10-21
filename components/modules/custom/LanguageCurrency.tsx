@@ -10,7 +10,7 @@ export default function LanguageCurrency({
   className?: string;
 }) {
   const [languages, setLanguages] = useState("English");
-  const [currency, setCurrency] = useState("Usd");
+  const [currency, setCurrency] = useState("Kes");
 
   const handleCurrency = (value: string) => {
     setCurrency(value);

@@ -17,7 +17,7 @@ export default function Ad() {
     <section className="hidden relative lg:flex w-full border-b border-neutral-200">
       <Container>
         <Row className="justify-between">
-          <div className="flex">Welcome to Carrefour Store</div>
+          <div className="flex">Welcome to Balozi Book Store</div>
           <div className="flex gap-8 items-center">
             <Link
               id="contact"

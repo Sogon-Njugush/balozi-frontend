@@ -6,13 +6,13 @@ export default function Logo() {
   return (
     <Link id="logo" href="/" className="flex gap-4 items-center justify-center w-max">
       <Image
-        src="/assets/images/logo.svg"
+        src=""
         width="70"
         height="70"
         alt="logo"
       />
       <h2 data-testid="carrefour" className="hidden font-extrabold lg:flex text-[40px]  tracking-tigh mt-1 text-primary-900 antialiased">
-        Carrefour
+        Balozi BookStore
       </h2>
     </Link>
   );

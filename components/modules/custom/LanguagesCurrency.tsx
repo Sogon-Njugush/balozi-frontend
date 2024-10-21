@@ -10,7 +10,7 @@ export default function LanguagesCurrency({
 }) {
 
   const [ languages, setLanguages ] = useState("English")
-  const [ currency, setCurrency ] = useState("USD")
+  const [ currency, setCurrency ] = useState("KES")
 
   const handleLanguage = (value: string) => {
       setLanguages(value);

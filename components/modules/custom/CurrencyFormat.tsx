@@ -15,7 +15,7 @@ export default function CurrencyFormat({
         "tracking-wider font-normal inline-flex max-w-[160px] outline-none",
         className
       )}
-      prefix="$"
+      prefix="KES"
       value={value}
       decimalScale={3}
       thousandSeparator=","

@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="flex items-center justify-center gap-4 text-center py-4">
           <span className="text-sm text-gray-500 text-center">@2024</span>
           <Link href="#" className="hover:underline">
-            Carrefour
+            Balozi
           </Link>
           All right reserved
         </div>
